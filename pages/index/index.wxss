@@ -1,0 +1,60 @@
+/**index.wxss**/
+
+page{
+  height:100%;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.headline {
+  margin-top: 5px;
+}
+.cowline {
+  margin-top: 10px;
+}
+.itemView{
+  margin-top: 50px;
+}
+.contactline{
+  margin-top: 70px;
+}
+.head {
+  color: #353535;
+  font-weight:bold;
+  font-size: x-large;
+}
+
+.goodbutton {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #09BB07;
+  color: white;
+  border-radius: 98rpx;
+  background: bg_red;
+}
+ 
+/* 按下变颜色 */
+.hover {
+  background:  #CCFFCC;
+}

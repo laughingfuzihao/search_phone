@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="content">
+    <!--pics文件夹下的background.jpg文件-->
+    <image class='background' src="http://pic1.win4000.com/mobile/2020-03-30/5e819d7609f26.jpg" mode="aspectFill"></image>
+    <!--页面其它部分-->
+<view class="container">
+  <view class="headline">
+    <text class="head">{{motto}}</text>
+  </view>
+  <view class="cowline">
+    <text class="head">{{province}}</text>
+    <text class="head">{{city}}</text>
+    <text class="head">{{company}}</text>
+  </view>
+  <view class="itemView">
+    <input type="number" class="input" name="iphone" placeholder="请输入手机号"  bindinput="getInput" value="{{iphones}}"/>
+  </view>
+    <view class="contactline">
+<button class='goodbutton'  hover-class="hover" bindtap="btnclick" >查询</button>
+<button class='goodbutton'  hover-class="hover" bindtap="btn2click" >清空</button>
+  </view>
+
+</view>
+</view>
+
+
